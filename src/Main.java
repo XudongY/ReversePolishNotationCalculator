@@ -1,5 +1,3 @@
-package XudongYu;
-
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Stack;
@@ -18,9 +16,9 @@ public class Main {
             System.out.println("postfix is " + postfix);
             System.out.println("reslut is " + calculate.calculate(postfix));
             System.out.println("If you want another calculate?");
-            System.out.println(("yes for 1, No for q"));
+            System.out.println(("yes for 1, No for quit"));
             String s = scanner.next();
-            if (s.equals("q")) {
+            if (s.equals("quit")) {
                 break;
             }
         }
